@@ -1,0 +1,11 @@
+E:\WCF\BlogServiceHostConsole\BlogServiceHostConsole\bin\Debug\BlogServiceHostConsole.exe.config
+E:\WCF\BlogServiceHostConsole\BlogServiceHostConsole\bin\Debug\BlogServiceHostConsole.exe
+E:\WCF\BlogServiceHostConsole\BlogServiceHostConsole\bin\Debug\BlogServiceHostConsole.pdb
+E:\WCF\BlogServiceHostConsole\BlogServiceHostConsole\bin\Debug\BlogLibrary.dll
+E:\WCF\BlogServiceHostConsole\BlogServiceHostConsole\bin\Debug\BlogLibrary.pdb
+E:\WCF\BlogServiceHostConsole\BlogServiceHostConsole\bin\Debug\BlogLibrary.dll.config
+E:\WCF\BlogServiceHostConsole\BlogServiceHostConsole\obj\Debug\BlogServiceHostConsole.csprojAssemblyReference.cache
+E:\WCF\BlogServiceHostConsole\BlogServiceHostConsole\obj\Debug\BlogServiceHostConsole.csproj.CoreCompileInputs.cache
+E:\WCF\BlogServiceHostConsole\BlogServiceHostConsole\obj\Debug\BlogServiceHostConsole.csproj.CopyComplete
+E:\WCF\BlogServiceHostConsole\BlogServiceHostConsole\obj\Debug\BlogServiceHostConsole.exe
+E:\WCF\BlogServiceHostConsole\BlogServiceHostConsole\obj\Debug\BlogServiceHostConsole.pdb

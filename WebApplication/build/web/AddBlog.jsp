@@ -1,0 +1,75 @@
+<%-- 
+    Document   : AddBlog
+    Created on : 7 Apr, 2019, 11:42:52 AM
+    Author     : SONY
+--%>
+<%@page import="org.datacontract.schemas._2004._07.bloglibrary.Blog"%>
+<%@page import="javax.xml.namespace.QName"%>
+<%@page import="javax.xml.bind.JAXBElement"%>
+<%@page import="org.tempuri.IBlogService"%>
+<%@page import="org.tempuri.BlogService"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    </style>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Add Blog</title>
+    </head>
+    <body class="w3-light-blue">
+        <div class="w3-bar w3-white w3-large">
+            <a href="viewBlogs.jsp" class="w3-bar-item w3-button w3-red w3-mobile"><i class="fa fa-bed w3-margin-right"></i>Blog</a>
+            <a href="AddBlog.jsp" class="w3-bar-item w3-button w3-mobile">Add Blog</a>
+            <a href="deleteBlog.jsp" class="w3-bar-item w3-button w3-mobile">Delete Blog</a>
+            <a href="updateBlog.jsp" class="w3-bar-item w3-button w3-mobile">Update Blog</a>
+        </div>
+        <form action="AddBlog" method="POST">
+        <h1 class="w3-center">Add New Blog</h1>
+        <div class="container">
+  <br>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-danger btn-lg"style="margin-left:500px" data-toggle="modal" data-target="#myModal">Add Blog</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Blog Title</h4>
+          <input type="text" name="title" style="width:100%" required>
+        </div>
+        <div class="modal-body">
+          <p>Description</p>
+          <textarea  name="data" style="height:200px; width:100%" required></textarea>
+        </div>
+        <div class="modal-body">
+            <p>Author Name:</p>
+            <input type="text" name="author_name" style="width:100%" required>
+          
+        </div>
+          <div class="modal-footer">
+              <input type="submit" class="btn btn-default" value="add">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+E:\WCF\BlogClient\BlogClient\bin\Debug\BlogClient.exe.config
+E:\WCF\BlogClient\BlogClient\bin\Debug\BlogClient.exe
+E:\WCF\BlogClient\BlogClient\bin\Debug\BlogClient.pdb
+E:\WCF\BlogClient\BlogClient\obj\Debug\BlogClient.csprojAssemblyReference.cache
+E:\WCF\BlogClient\BlogClient\obj\Debug\BlogClient.Form1.resources
+E:\WCF\BlogClient\BlogClient\obj\Debug\BlogClient.Properties.Resources.resources
+E:\WCF\BlogClient\BlogClient\obj\Debug\BlogClient.csproj.GenerateResource.cache
+E:\WCF\BlogClient\BlogClient\obj\Debug\BlogClient.csproj.CoreCompileInputs.cache
+E:\WCF\BlogClient\BlogClient\obj\Debug\BlogClient.exe
+E:\WCF\BlogClient\BlogClient\obj\Debug\BlogClient.pdb
